@@ -1,0 +1,4 @@
+(library
+  (name pasm)
+  (public_name pasm)
+  (libraries thwack))

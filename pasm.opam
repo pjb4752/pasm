@@ -1,0 +1,12 @@
+opam-version: "2.0"
+name: "pasm"
+synopsis: "PASM"
+version: "0.0.1"
+maintainer: "pjb4752 <pjb4752@gmail.com>"
+authors: "pjb4752 <pjb4752@gmail.com>"
+homepage: "https://github.com/pjb4752/pasm"
+bug-reports: "https://github.com/pjb4752/pasm/issues"
+dev-repo: "git://github.com/pjb4752/pasm.git"
+build: [
+  ["dune" "build" "--only" "pasm" "--root" "." "-j" jobs "@install"]
+]
