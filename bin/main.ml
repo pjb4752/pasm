@@ -31,7 +31,7 @@ let write_output_file filename output =
   close_out out_channel
 
 let run filename =
-  Thwack.Result.(
+  Thwack.Extensions.Result.(
     let (let*) = (>>=) in
     let* output_filename = assembled_filename filename in
     let input = read_input_file filename in

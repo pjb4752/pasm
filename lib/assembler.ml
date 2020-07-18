@@ -1,6 +1,6 @@
 open Printf
-open Thwack.Result
-open Thwack.Result.Syntax
+open Thwack.Extensions.Result
+open Thwack.Extensions.Result.Syntax
 
 module Instruction = struct
   module Argument = struct

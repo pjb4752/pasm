@@ -56,7 +56,7 @@ let suite =
         match actual_output with
         | Ok actual_output -> begin
             let string_output = Pasm.Output.to_string actual_output in
-            assert_equal string_output expected_output
+            assert_equal expected_output string_output
         end
         | Error _ -> assert_failure "error during assembly of input"
       );

@@ -1,7 +1,7 @@
 open Printf
 open Thwack.Extensions
-open Thwack.Result
-open Thwack.Result.Syntax
+open Thwack.Extensions.Result
+open Thwack.Extensions.Result.Syntax
 
 module Statement = struct
   module Literal = struct
